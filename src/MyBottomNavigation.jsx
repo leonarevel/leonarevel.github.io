@@ -13,7 +13,7 @@ function MyBottomNavigation({ myImageListRef, myIntroductionRef, myContactsRef }
       <BottomNavigation
         showLabels
         value={value}
-        onChange={(event, newValue) => {                              
+        onChange={(_event, newValue) => {                              
           setValue(newValue);
         }}
       >

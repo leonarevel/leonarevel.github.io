@@ -1,6 +1,6 @@
 import MyAnimatedBackground from "./MyBackground/MyAnimatedBackground";
 
-function MyBackground({ svg, onAnimationEnd }) {
+function MyBackground({ svg, _onAnimationEnd }) {
   return (svg?
     <div
       style={{

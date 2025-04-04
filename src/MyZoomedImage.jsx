@@ -1,7 +1,5 @@
 import {
-  ArrowBack,
   ArrowBackIos,
-  ArrowForward,
   ArrowForwardIos,
   Close,
 } from "@mui/icons-material";
@@ -9,9 +7,7 @@ import {
   Backdrop,
   Box,
   Card,
-  CardContent,
   ClickAwayListener,
-  Grid2,
   IconButton,
   Stack,
   Tooltip,

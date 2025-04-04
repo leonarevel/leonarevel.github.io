@@ -1,4 +1,4 @@
-import { Grow, ImageList, ImageListItem, makeStyles, useMediaQuery } from "@mui/material";
+import { ImageList, useMediaQuery } from "@mui/material";
 import { useEffect, useState } from "react";
 import MyImageListItem from "./MyImageList/MyImageListItem";
 

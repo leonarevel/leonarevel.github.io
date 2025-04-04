@@ -1,10 +1,9 @@
-import { TransitionGroup } from "react-transition-group";
 import MyContacts from "./MyContent/MyContacts";
 import MyImageList from "./MyContent/MyImageList";
 import MyIntroduction from "./MyContent/MyIntroduction";
 
-import { Box, Collapse, Fade, Grow, Paper, Stack } from "@mui/material";
-import { useEffect, useState } from "react";
+import { Box, Grow, Stack } from "@mui/material";
+import { useState } from "react";
 
 function MyContent({ myImageListRef, myIntroductionRef, myContactsRef, setZoomedImage }) {
   let [show, setShow] = useState(false);
