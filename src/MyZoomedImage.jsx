@@ -64,7 +64,7 @@ function MyZoomedImage({ zoomedImage, setZoomedImage }) {
                     left: "0",
                     width: "100%",
                     height: "100%",
-                    backgroundImage: "url(" + galleryFiles[index] + ")",
+                    backgroundImage: "url(" + galleryFiles[index].replace("/", "/full_") + ")",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "contain",
                     backgroundPosition: "center",

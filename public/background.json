@@ -6,13 +6,5 @@
         "default": "#000000"
       }
     }
-  },
-  {
-    "url": "/background/1.mp4",
-    "palette": {
-      "background": {
-        "default": "#aeaeae"
-      }
-    }
   }
 ]
